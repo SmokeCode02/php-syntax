@@ -23,6 +23,20 @@
     familyName("Jane");
     familyName("Mary");
     familyName("Mark");
+
+    echo "<br>";
+
+    function lastnameName($lname,$year) {
+        echo "$fname Refsnes. Born in $year<br>";
+    }
+
+        familyName("John",2000);
+        familyName("Hege",2000);
+        familyName("Jane",2000);
+        familyName("Mary",2000);
+        familyName("Mark",2000);
 ?>
+
+
 </body>
 </html>
